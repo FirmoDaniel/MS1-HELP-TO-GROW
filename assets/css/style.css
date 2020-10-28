@@ -1,0 +1,37 @@
+/*--------------------------HEADER*/
+
+.heading{
+    height: 100px;
+    background-color: #d8edab;
+    text-align: center; 
+    font-family: "playfair Display", sans-serif;
+   
+}
+
+.heading h1{
+    padding-top: 20px;
+
+}
+
+.navbar li{
+    display: inline;
+    padding-left: 200px;
+    margin: 0;
+    font-family: "playfair Display", sans-serif; 
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 28px;
+    display: inline-block; /*not sure this is needed*/
+    color: black;
+
+}
+
+ .navbar span{
+     color: #db76d1;
+     font-size: 20px;
+
+ }
+
