@@ -1,17 +1,24 @@
 /*----------------------------------------------------------------------------HEADER*/
 
-.heading{
+
+.jumbotron{
     background-color: #d8edab;
     font-family: "playfair Display", sans-serif;
     text-align: center;
-    height: 100px;
-    padding-top: 30px;
-    font-size: 28px;  
+    margin: 0;
+      
+
 }
+    
+
 .navbar{
-    display: block;
     font-size: 20px;
     font-family: "Playfair Display", sans-serif;
+    display: block;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
 }
 
 .navbar i{
@@ -30,6 +37,32 @@
 .active{
     border-bottom: 1px solid #db76d1;
 }
+
+/*------------------------------------------------------------------------------BODY*/
+
+/*.image{
+    background-image: url("../images/coin-plant-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+#our-aim{
+    text-align: center;
+    border: 2px solid #ff4800c5;
+
+}
+
+/*#image{
+    border: 2px solid #ff4800c5;
+    position: relative;
+
+}*/
+
+
+
+
+
 
 /*------------------------------------------------------------------------------FOOTER*/
 
@@ -59,3 +92,4 @@ footer span{
     text-decoration: none;
   
 }
+
