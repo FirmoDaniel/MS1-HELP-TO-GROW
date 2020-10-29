@@ -33,21 +33,29 @@
 
 /*------------------------------------------------------------------------------FOOTER*/
 
-.footer-item-1{
-    text-align: center;
-    color: #db76d1;
-    
-}
-
-.footer-item-2{
-    text-align: center;
-    color: #f0a80c;
-    
-}
-
 footer{
 background-color: #d8edab;
-height: 100px;
+min-height: 120px;
+}
 
+#footer-items div{
+    color: #db76d1; 
+    padding-top: 20px;
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
 
+}
+
+footer i {
+    color:  #db76d1; 
+
+}
+
+footer span{
+    color: black;
+}
+
+.container-fluid a{
+    text-decoration: none;
+  
 }
