@@ -6,7 +6,7 @@
     font-family: "playfair Display", sans-serif;
     text-align: center;
     margin: 0;
-      
+    padding: 0;
 
 }
     
@@ -28,6 +28,7 @@
 
 .navbar span{
     color: #db76d1; 
+
 }
 
 .navbar a{
@@ -40,35 +41,40 @@
 
 /*------------------------------------------------------------------------------BODY*/
 
-/*.image{
-    background-image: url("../images/coin-plant-1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}*/
 
-#our-aim{
-    text-align: center;
-    border: 2px solid #ff4800c5;
 
+.text-box, .images, .choice-box, .forty{
+    border: 2px solid #d8edab;
+    font-family: "Playfair Display", sans-serif;
 }
 
-/*#image{
-    border: 2px solid #ff4800c5;
-    position: relative;
+.text-box h1{
+    color: #ff4800c5;
+    padding-bottom: 5px;
+}
 
-}*/
+.forty i{
+    color: #ff4800c5;
+    font-size: 800%;
+    width: 50%;
+    height: 50%;
+    padding-left: 25%;
+    padding-top: 10%; 
+}
 
+.forty span{
+ float: right;
+ padding-right: 5px;
+ font-size: 20px;
+ font-family: "Playfair Display", sans-serif;
+ color: black;
 
-
-
-
+}
 
 /*------------------------------------------------------------------------------FOOTER*/
 
 footer{
 background-color: #d8edab;
-min-height: 120px;
 }
 
 #footer-items div{
