@@ -75,6 +75,53 @@
 
 /*------------------------------------------------------------------------------BODY FORTY-PLUS*/
 
+.over-forty-s1, .over-forty-s2, .over-forty-s3, .over-forty-s4{
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+    line-height: 3;
+    padding-top: 15px;
+
+}
+
+
+.over-forty-s1 i, .over-forty-s2 span, .over-forty-s3 span, .over-forty-s3 i, .over-forty-s2 i, .over-forty-s4 span{
+    color: #ff4800c5;
+
+}
+.over-forty-s2{
+    border: 3px groove #d8edab;
+
+}
+
+.over-forty-s3 i{
+    padding-right: 5px;
+
+}
+
+.over-forty-s3 h3{
+    background-color:  #d8edab;
+    border-bottom: 1px solid #db76d1;
+    margin-top: 20px;
+    margin-bottom: 30px;
+   
+}
+
+
+.btn-primary{
+    background-color: #db76d1;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+}
+.btn-primary:hover{
+    background-color:  #d8edab;
+    color:  #ff4800c5;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+    zoom: 150%;
+}
 
 
 /*------------------------------------------------------------------------------FOOTER*/
