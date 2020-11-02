@@ -1,8 +1,62 @@
-/*----------------------------------------------------------------------------HEADER*/
+/*---------------------------------------------------------COLORS*/
+
+span{
+    color: #ff4800c5;
+
+}
+
+.navbar i{
+    color:#db76d1;
+    
+}
+
+.navbar a{
+    color: black;
+
+}
+
+
+
+
+/*---------------------------------------------------------IMAGES*/
+
+.img-back{
+    background-image: url("https://image.freepik.com/free-photo/hand-protect-money-stack-with-plant-growing-coins-concept-finance_34152-1481.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: whitesmoke;
+    min-height: 300px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+/*---------------------------------------------------------Font*/
+
+body{
+    font-family: "Playfair Display", sans-serif;
+}
+
+
+
+
+    
+/*---------------------------------------------------------Spacing*/
+
+
+.center{
+    text-align: center;
+}
+
+
+
+/*---------------------------------------------------------HEADER*/
 
 
 .jumbotron{
-    background-color: #d8edab;
+    /*background-color: #d8edab;*/
     font-family: "playfair Display", sans-serif;
     text-align: center;
     margin: 0;
@@ -15,96 +69,23 @@
     font-size: 20px;
     font-family: "Playfair Display", sans-serif;
     display: block;
-    text-align: center;
     padding-bottom: 5px;
     padding-top: 5px;
     
-}
-
-.navbar i{
-    color: black;
-    
-}
-
-.navbar span{
-    color: #db76d1; 
-
-}
-
-.navbar a{
-    text-decoration: none;
 }
 
 .active{
     border-bottom: 1px solid #db76d1;
 }
 
-/*------------------------------------------------------------------------------BODY INDEX*/
+/*---------------------------------------------------------BODY INDEX*/
 
 
 
-.text-box, .images, .choice-box, .forty{
-    border: 2px solid #d8edab;
-    font-family: "Playfair Display", sans-serif;
-}
 
 
-.text-box h1{
-    color: #ff4800c5;
-    padding-bottom: 5px;
-    line-height: 1.5;
-}
+/*--------------------------------------------------------BODY OVER-FORTY & UNDER-FORTY*/
 
-.forty i{
-    color: #ff4800c5;
-    font-size: 800%;
-    width: 50%;
-    height: 50%;
-    padding-left: 25%;
-    padding-top: 10%; 
-}
-
-.forty span{
- float: right;
- padding-right: 5px;
- font-size: 20px;
- font-family: "Playfair Display", sans-serif;
- color: black;
-
-}
-
-/*------------------------------------------------------------------------------BODY FORTY-PLUS*/
-
-.over-forty-s1, .over-forty-s2, .over-forty-s3, .over-forty-s4{
-    text-align: center;
-    font-family: "Playfair Display", sans-serif;
-    line-height: 3;
-    padding-top: 15px;
-
-}
-
-
-.over-forty-s1 i, .over-forty-s2 span, .over-forty-s3 span, .over-forty-s3 i, .over-forty-s2 i, .over-forty-s4 span{
-    color: #ff4800c5;
-
-}
-.over-forty-s2{
-    border: 3px groove #d8edab;
-
-}
-
-.over-forty-s3 i{
-    padding-right: 5px;
-
-}
-
-.over-forty-s3 h3{
-    background-color:  #d8edab;
-    border-bottom: 1px solid #db76d1;
-    margin-top: 20px;
-    margin-bottom: 30px;
-   
-}
 
 
 .btn-primary{
@@ -113,6 +94,7 @@
     margin-top: 15px;
     margin-bottom: 15px;
     width: 30%;
+
 }
 .btn-primary:hover{
     background-color:  #d8edab;
@@ -122,6 +104,64 @@
     width: 30%;
     zoom: 150%;
 }
+
+.link-to-things-we-like i:hover{
+    color: #ff4800c5;
+
+}
+
+/*------------------------------------------------------------------------------BODY SIGN-ME-UP*/
+
+.sign-me-up-heading{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#exampleInputText{
+    color: #db76d1;
+    
+}
+
+.form-control::placeholder{
+    color: #ff4800c5;
+}
+
+
+.link-to-things-we-like{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.link-to-things-we-like i{
+    color: black;
+
+}
+
+/*------------------------------------------------------------------------------BODY THINGS-WE-LIKE*/
+
+.things-we-like-s1{
+    text-align: center;
+    margin: 10px;
+    
+
+}
+
+.things-we-like-s2{
+   text-align: center; 
+   padding-top: 20px;
+
+}
+
+.things-we-like-s2 a{
+    color: black;
+}
+
+.things-we-like-s2 a:hover{
+    zoom: 150%; /*check the zoom functions*/
+    color: #ff4800c5;
+}
+
 
 
 /*------------------------------------------------------------------------------FOOTER*/
@@ -151,4 +191,3 @@ footer span{
     text-decoration: none;
   
 }
-
