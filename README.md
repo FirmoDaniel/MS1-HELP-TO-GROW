@@ -26,7 +26,7 @@ I only have €100 to invest each month and I want to buy Bit-Coin.
 We can offer verified exchanges on which to trade, guidance on relevant asset-type trends and pitfalls, a personalized portfolio growth strategy, and advise on specific tax obligations.  
 There are very few, if any, Irish based advisors who would entertain this user’s needs.
 
-###User Story 2
+### User Story 2
 I have a pension, isn’t that enough?
 While pensions are highly tax efficient they are not without their pitfalls
 * The government can, and has, raided private pensions in recessionary times. 
@@ -50,13 +50,13 @@ Wireframes pdf’s are included in the project in a separate folder appropriatel
 ### Features left to implement 
 Sign Me Up: We would like to allow users sign up in full on this page by implementing some back-end structure and incorporating a secure direct payment method.
 
-Over-all : To ensure adequate revenues we want to monetize affiliate links and advertising
+Over-all : To ensure adequate revenues we want to monetize affiliate links and advertising.
 
 ## Technologies used
 * [Git-Hub](https://github.com) -For deployment
 * [Git Pod](https://github.com) -IDE
-* [Bootstrap](https://getbootstrap.com) -Utilized for correct scaling on mobile devices
-* [Font Awesome](https://fontawesome.com) -Used for all icons
+* [Bootstrap](https://getbootstrap.com) -Utilized for correct scaling on mobile devices and buttons.
+* [Font Awesome](https://fontawesome.com) -Used for all icons.
 * [Google Fonts](https://fonts.google.com) -Used for primary font employed throughout.
 * [Visual Studio](https://code.visualstudio.com) -For offline work.
 
