@@ -22,12 +22,12 @@ We then offer simple examples of available options to both categories, with a pu
 New investors come with a myriad of varying questions, so we aim to keep the initial experience concise while also demonstrating our knowledge and how we can help.
 
 ### User Story 1
-I only have €100 to invest each month and I want to buy Bit-Coin.
+> I only have €100 to invest each month and I want to buy Bit-Coin.
 We can offer verified exchanges on which to trade, guidance on relevant asset-type trends and pitfalls, a personalized portfolio growth strategy, and advise on specific tax obligations.  
 There are very few, if any, Irish based advisors who would entertain this user’s needs.
 
 ### User Story 2
-I have a pension, isn’t that enough?
+> I have a pension, isn’t that enough?
 While pensions are highly tax efficient they are not without their pitfalls
 * The government can, and has, raided private pensions in recessionary times. 
 * Most providers demand a1-3% annual commission even if your investment value falls. Not to mention other costs like allocation/ management fees. 
@@ -60,7 +60,7 @@ Over-all : To ensure adequate revenues we want to monetize affiliate links and a
 * [Google Fonts](https://fonts.google.com) -Used for primary font employed throughout.
 * [Visual Studio](https://code.visualstudio.com) -For offline work.
 
- ## Testing
+## Testing
 ### Links and Form
 There are currently no automatic tests employed. Such test are marked for later development.
 All internal and external links manually tested on each of the five pages. 
