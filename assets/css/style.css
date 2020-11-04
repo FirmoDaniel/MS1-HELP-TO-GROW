@@ -5,18 +5,25 @@ span{
 
 }
 
-.navbar i{
+.things-we-like-hr{
+    background-color: #ff4800c5;
+
+}
+
+.navbar i, footer i{
     color:#db76d1;
     
 }
 
-.navbar a{
+.navbar a, #footer-items a{
     color: black;
+    
 
 }
 
-
-
+footer{
+background-color: #d8edab;
+}
 
 /*---------------------------------------------------------IMAGES*/
 
@@ -26,34 +33,36 @@ span{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    color: whitesmoke;
-    min-height: 300px;
+    min-height: 600px;
     padding-top: 10px;
     margin-bottom: 10px;
+    color: black;
     
 }
 
-/*---------------------------------------------------------Font*/
+/*---------------------------------------------------------FONTS & TEXT DECORATION*/
 
 body{
     font-family: "Playfair Display", sans-serif;
 }
 
+.navbar a, #footer-items a{
+    text-decoration: none;
 
+}
 
+.active{
+    border-bottom: 1px solid #db76d1;
 
-    
-/*---------------------------------------------------------Spacing*/
-
+}
+ 
+/*---------------------------------------------------------ALIGNMENT*/
 
 .center{
     text-align: center;
 }
 
-
-
-/*---------------------------------------------------------HEADER*/
-
+/*-----------------------------------------------------------------HEADER*/
 
 .jumbotron{
     background-color: #d8edab;
@@ -63,7 +72,6 @@ body{
     padding: 0;
 
 }
-    
 
 .navbar{
     font-size: 20px;
@@ -74,19 +82,34 @@ body{
     
 }
 
-.active{
-    border-bottom: 1px solid #db76d1;
+.inner-box{
+  
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background-color: rgba(218, 218, 238, 0.5);
+  margin-top: 50px; 
+   
 }
 
-/*---------------------------------------------------------BODY INDEX*/
+/*---------------------------------------------------------------------LINKS (ex footer and header)*/
 
 
 
+.link-to-things-we-like a,
+.things-we-like-list a {
+    color: black;
+    text-decoration: none;
 
+}
 
-/*--------------------------------------------------------BODY OVER-FORTY & UNDER-FORTY*/
+.link-to-things-we-like a:hover,
+.things-we-like-list a:hover{
+    zoom: 150%; 
+    color: #ff4800c5;
 
+}
 
+/*------------------------------------------------------------------------BUTTONS*/
 
 .btn-primary{
     background-color: #db76d1;
@@ -94,8 +117,10 @@ body{
     margin-top: 15px;
     margin-bottom: 15px;
     width: 30%;
+    border: none;
 
 }
+
 .btn-primary:hover{
     background-color:  #d8edab;
     color:  #ff4800c5;
@@ -103,19 +128,11 @@ body{
     margin-bottom: 15px;
     width: 30%;
     zoom: 150%;
-}
-
-.link-to-things-we-like i:hover{
-    color: #ff4800c5;
+    border: none;
 
 }
 
-/*------------------------------------------------------------------------------BODY SIGN-ME-UP*/
-
-.sign-me-up-heading{
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
+/*------------------------------------------------------------------------------FORMS*/
 
 #exampleInputText{
     color: #db76d1;
@@ -126,68 +143,30 @@ body{
     color: #ff4800c5;
 }
 
+/*------------------------------------------------------------------------------THINGS-WE-LIKE*/
 
-.link-to-things-we-like{
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-}
-
-.link-to-things-we-like i{
-    color: black;
+.things-we-like-heading h3{
+    margin-top: 50px;
+    margin-bottom: 20px;
 
 }
 
-/*------------------------------------------------------------------------------BODY THINGS-WE-LIKE*/
-
-.things-we-like-s1{
-    text-align: center;
-    margin: 10px;
-    
-
-}
-
-.things-we-like-s2{
-   text-align: center; 
+.things-we-like-list{ 
    padding-top: 20px;
 
 }
 
-.things-we-like-s2 a{
-    color: black;
+/*------------------------------------------------------------------------------SIGN-ME-UP*/
+
+.sign-me-up-heading{
+    margin-top: 40px;
+    margin-bottom: 40px;
+
 }
-
-.things-we-like-s2 a:hover{
-    zoom: 150%; /*check the zoom functions*/
-    color: #ff4800c5;
-}
-
-
 
 /*------------------------------------------------------------------------------FOOTER*/
 
-footer{
-background-color: #d8edab;
-}
-
-#footer-items div{
-    /*color: #db76d1; */
-    padding-top: 20px;
-    text-align: center;
-    font-family: "Playfair Display", sans-serif;
-
-}
-
-footer i {
-    color:  #db76d1; 
-
-}
-
-footer span{
-    color: black;
-}
-
-.container-fluid a{
-    text-decoration: none;
-  
+#footer-items{
+    padding: 20px;
+    
 }
