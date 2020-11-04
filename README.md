@@ -40,6 +40,8 @@ While pensions are highly tax efficient they are not without their pitfalls
 
 Depending on the users age and end-goals, our community offers a personalized diversification strategy to ensure our investors avoid the big mistakes people often make with a pension-only approach.
 
+![User Story 1 ScreenShot](screenshots/ux2-screenshot.png)
+
 ### Wireframes
 Wireframes pdf’s are included in the project in a separate folder appropriately marked ‘wireframe’. 
 
