@@ -1,4 +1,4 @@
-#Project name: Help to Grow 
+# Project name: Help to Grow 
 The project aim is to enable new investors to clear what are often the two most daunting hurdles.
 * Upfront capital 
 * Readily available, reliable and custom, information.
@@ -13,7 +13,7 @@ Professionals are compensated via the subscription charge. As part of their re-n
 
 Professionals are advised to advertise private mentoring sessions with the community for a fixed, pre-agreed-upon, fee in order to expand their own client base and ultimately the return value of remaining apart of Danco: Community investors site.
 
-##UX
+## UX
 The website is targeted at new users, and initially splits them into two categories for easy, example representation. 
 * Over Forty
 * Under Forty
@@ -21,7 +21,7 @@ The website is targeted at new users, and initially splits them into two categor
 We then offer simple examples of available options to both categories, with a push toward the greater rewards that accompany membership.
 New investors come with a myriad of varying questions, so we aim to keep the initial experience concise while also demonstrating our knowledge and how we can help.
 
-###User Story 1
+### User Story 1
 I only have €100 to invest each month and I want to buy Bit-Coin.
 We can offer verified exchanges on which to trade, guidance on relevant asset-type trends and pitfalls, a personalized portfolio growth strategy, and advise on specific tax obligations.  
 There are very few, if any, Irish based advisors who would entertain this user’s needs.
@@ -35,11 +35,11 @@ While pensions are highly tax efficient they are not without their pitfalls
 
 Depending on the users age and end-goals, our community offers a personalized diversification strategy to ensure our investors avoid the big mistakes people often make with a pension-only approach.
 
-###Wireframes
+### Wireframes
 Wireframes pdf’s are included in the project in a separate folder appropriately marked ‘wireframe’. 
 
-##Features
-###Existing Features
+## Features
+### Existing Features
  Index : We declare who we’re for, and the benefits of joining. We’re upfront about the cost and provide a link to a quick example.
 * Forty + : Our recommendations are clear, with a promise of more.
 * Forty - : Mirroring ‘Forty +’ we simultaneously demonstrate an alternative route depending on age, and highlight the futility of a one-size-fits-all approach.
@@ -47,12 +47,12 @@ Wireframes pdf’s are included in the project in a separate folder appropriatel
 * Things We Like : Here again demonstrate our commitment to a varied approach to investing by sharing a range of options we can help the user with. 
 * Footer : Links provided to our existing social medias, as well as closed links to our upcoming additions (podcast, discord )
 
-###Features left to implement 
+### Features left to implement 
 Sign Me Up: We would like to allow users sign up in full on this page by implementing some back-end structure and incorporating a secure direct payment method.
 
 Over-all : To ensure adequate revenues we want to monetize affiliate links and advertising
 
-##Technologies used
+## Technologies used
 * [Git-Hub](https://github.com) -For deployment
 * [Git Pod](https://github.com) -IDE
 * [Bootstrap](https://getbootstrap.com) -Utilized for correct scaling on mobile devices
@@ -60,8 +60,8 @@ Over-all : To ensure adequate revenues we want to monetize affiliate links and a
 * [Google Fonts](https://fonts.google.com) -Used for primary font employed throughout.
 * [Visual Studio](https://code.visualstudio.com) -For offline work.
 
- ##Testing
-###Links and Form
+ ## Testing
+### Links and Form
 There are currently no automatic tests employed. Such test are marked for later development.
 All internal and external links manually tested on each of the five pages. 
 Sign up form tested as follows
@@ -73,7 +73,7 @@ Sign up form tested as follows
 * Entered valid email and checked the disclaimer box
 	* Sign up successful
 
-###Screen sizing
+### Screen sizing
 Using GoogleChrome developer tool
 * The website scales evenly all the way down to screen-size 425x635.
 * At 375x635 and 320x635 the header and footer icons start to bunch although not so much as to overtly disrupt the UX. This too is marked for later development.
@@ -85,7 +85,7 @@ Using FireFox developer tool
 
 
 
-##Deployment
+## Deployment
 Git-hub used for deployment.
 Process as follows
 * Select ‘MS1-HELP-TO-GROW’
@@ -93,12 +93,12 @@ Process as follows
 * Scroll down to ‘GitHub pages’
 * [Link to site](https://firmodaniel.github.io/MS1-HELP-TO-GROW/)
 
-##Credits
-###Content
+## Credits
+### Content
 Header quotes taken from google search results of‘Financial Quotes’
-###Media
+### Media
 Background image – taken from [Freepik](https://www.freepik.com)
-###Aknowldgements 
+### Aknowldgements 
 I received inspiration for this project from Code Institute -Love Running- tutorial, which is why I opted for background images behind the header quotes rather than inserted images.
 
 
