@@ -25,7 +25,10 @@ New investors come with a myriad of varying questions, so we aim to keep the ini
 > I only have €100 to invest each month and I want to buy Bit-Coin.
 
 We can offer verified exchanges on which to trade, guidance on relevant asset-type trends and pitfalls, a personalized portfolio growth strategy, and advise on specific tax obligations.  
+
 There are very few, if any, Irish based advisors who would entertain this user’s needs.
+
+![User Story 1 ScreenShot](screenshots/ux1-screenshot.png)
 
 ### User Story 2
 > I have a pension, isn’t that enough?
