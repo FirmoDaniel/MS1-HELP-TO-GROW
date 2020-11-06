@@ -3,7 +3,7 @@ The project aim is to enable new investors to clear what are often the two most 
 * Upfront capital 
 * Readily available, reliable and custom, information.
 
-What separates ‘Help To Grow’ form the other websites is our immediate dealing with the aforementioned hurdles.
+What separates ‘Help To Grow’ from the other websites is our immediate dealing with the aforementioned hurdles.
 * Our model employs a subscription base as opposed to a lengthy commission based contract. 
 * We offer users immediate access to qualified advisors once signed up to our community
 
@@ -35,15 +35,15 @@ There are very few, if any, Irish based advisors who would entertain this user�
 
 While pensions are highly tax efficient they are not without their pitfalls
 * The government can, and has, raided private pensions in recessionary times. 
-* Most providers demand a1-3% annual commission even if your investment value falls. Not to mention other costs like allocation/ management fees. 
+* Most providers demand a 1-3% annual commission even if your investment value falls. Not to mention other costs like allocation/ management fees. 
 * By their nature they have a long time horizon with sharp penalties for early access in case of emergency. 
 
-Depending on the users age and end-goals, our community offers a personalized diversification strategy to ensure our investors avoid the big mistakes people often make with a pension-only approach.
+Depending on user age and end-goals, our community offers a personalized diversification strategy to ensure our investors avoid the big mistakes people often make with a pension-only approach.
 
 ![User Story 1 ScreenShot](screenshots/ux2-screenshot.png)
 
 ### Wireframes
-Wireframes pdf’s are included in the project in a separate folder appropriately marked ‘wireframe’. 
+Wireframe pdf’s are included in the project in a separate folder appropriately marked ‘wireframe’. 
 
 ## Features
 ### Existing Features
@@ -106,6 +106,6 @@ Header quotes taken from google search results of‘Financial Quotes’
 ### Media
 Background image – taken from [Freepik](https://www.freepik.com)
 ### Aknowldgements 
-I received inspiration for this project from Code Institute -Love Running- tutorial, which is why I opted for background images behind the header quotes rather than inserted images.
+I received inspiration for this project from Code Institute -Love Running- tutorial, which is why I opted for background images in the header quotes rather than inserted images.
 
 
