@@ -1,7 +1,7 @@
 /*---------------------------------------------------------COLORS*/
 
 span{
-    color: #ff4800c5;
+    color: #ff4800;
 
 }
 
@@ -10,12 +10,12 @@ span{
 
 }
 
-.navbar i, footer i{
+.navbar i{
     color:#db76d1;
     
 }
 
-.navbar a, #footer-items a{
+.navbar a{
     color: black;
     
 
@@ -53,6 +53,11 @@ body{
 
 .active{
     border-bottom: 1px solid #db76d1;
+
+}
+
+.form-check a{
+    border-bottom: 1px solid #ff4800c5;
 
 }
  
@@ -96,14 +101,15 @@ body{
 
 
 .link-to-things-we-like a,
-.things-we-like-list a {
+.things-we-like-list a, .form-check a{
     color: black;
     text-decoration: none;
 
 }
 
 .link-to-things-we-like a:hover,
-.things-we-like-list a:hover{
+.things-we-like-list a:hover,
+.form-check a:hover{
     color: #ff4800c5;
 
 }
@@ -144,16 +150,6 @@ body{
 
 }
 
-/*------------------------------------------------------------------------------FORMS*/
-
-#exampleInputText{
-    color: #db76d1;
-    
-}
-
-.form-control::placeholder{
-    color: #ff4800c5;
-}
 
 /*------------------------------------------------------------------------------THINGS-WE-LIKE*/
 
@@ -178,10 +174,20 @@ body{
 
 /*------------------------------------------------------------------------------FOOTER*/
 
-/*#footer-items{
-    padding: 20px;
-    
-}*/
+.footer-icons li{
+    display: inline;
+
+}
+.footer-icons i{
+    color: #db76d1;
+    font-size: 180%;
+    margin: 1%;
+   
+}
+
+footer{
+    height: 60px;
+}
 
 /*------------------------------------------------------------------------------CARDS*/
 
@@ -193,5 +199,14 @@ body{
 .card{
     margin-top: 5px;
     margin-bottom: 5px;
+
+}
+
+/*------------------------------------------------------------------------------MEDIA QUERY*/
+
+@media screen and (max-width:450px){
+    #mq-border{ 
+        padding-top: 25px;
+    }
 
 }
