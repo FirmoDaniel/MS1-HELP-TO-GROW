@@ -86,7 +86,7 @@ body{
   
   text-transform: uppercase;
   letter-spacing: 4px;
-  background-color: rgba(218, 218, 238, 0.5);
+  background-color: rgba(218, 218, 238, 0.6);
   margin-top: 50px; 
    
 }
@@ -104,14 +104,13 @@ body{
 
 .link-to-things-we-like a:hover,
 .things-we-like-list a:hover{
-    zoom: 150%; 
     color: #ff4800c5;
 
 }
 
 /*------------------------------------------------------------------------BUTTONS*/
 
-.btn-primary{
+.internal{
     background-color: #db76d1;
     color: black;
     margin-top: 15px;
@@ -121,14 +120,27 @@ body{
 
 }
 
-.btn-primary:hover{
+.internal:hover{
     background-color:  #d8edab;
     color:  #ff4800c5;
     margin-top: 15px;
     margin-bottom: 15px;
     width: 30%;
-    zoom: 150%;
     border: none;
+
+}
+
+.card-button{
+    width: 100%;
+    background-color: #db76d1;
+    color: black;
+
+}
+
+.card-button:hover{
+    width: 100%;
+    background-color:  #d8edab;
+    color:  #ff4800c5;
 
 }
 
@@ -166,7 +178,20 @@ body{
 
 /*------------------------------------------------------------------------------FOOTER*/
 
-#footer-items{
+/*#footer-items{
     padding: 20px;
     
+}*/
+
+/*------------------------------------------------------------------------------CARDS*/
+
+.card-img-top{
+    height: 200px;
+
+}
+
+.card{
+    margin-top: 5px;
+    margin-bottom: 5px;
+
 }
