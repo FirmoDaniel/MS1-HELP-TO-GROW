@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+ <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/2f377630da.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
@@ -13,27 +16,32 @@
     <body>
         <header> 
             <div class="jumbotron">
-                <h1>Help <span><strong>To</strong></span> Grow</h1>
-                <nav class="container-fluid navbar center">
-                    <div class="row">
-                        <div class="col">
-                            <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home </a>
+                <h1 class="center">Help <span><strong>To</strong></span> Grow</h1>
+                    <nav class="navbar navbar-expand-sm">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"><i class="fas fa-bars" aria-hidden="true"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home </a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="over-forty.html"><i class="far fa-arrow-alt-circle-up" aria-hidden="true"></i> Over 40 <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="under-forty.html"><i class="far fa-arrow-alt-circle-down" aria-hidden="true"></i> under 40</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="sign-me-up.html"><i class="fas fa-user-plus" aria-hidden="true"></i> Sign Me Up</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="things-we-like.html"><i class="fas fa-check-double" aria-hidden="true"></i> Things We Like</a>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="col">
-                            <a href="over-forty.html" class="active"><i class="far fa-arrow-alt-circle-up" aria-hidden="true"></i> Forty + </a>
-                        </div>
-                        <div class="col">
-                            <a href="under-forty.html"><i class="far fa-arrow-alt-circle-down" aria-hidden="true"></i> Forty - </a>
-                        </div>
-                        <div class="col">
-                            <a href="sign-me-up.html"><i class="fas fa-user-plus" aria-hidden="true"></i> Sign Me Up! </a>
-                        </div>
-                        <div class="col">
-                            <a href="things-we-like.html"><i class="fas fa-check-double" aria-hidden="true"></i> Things We Like </a>
-                        </div>  
-                    </div>  
-                </nav>
-            </div>
+                    </nav>
+                </div>
         </header>
         <div class="container-fluid img-back">
             <div class="row">
@@ -43,14 +51,14 @@
                 </div>
             </div>
         </div>
-            <div class="container-fluid center">
+            <div class="container center">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h2>Congrats on taking your first steps<span><strong>.</strong></span> Well done<span><strong>!</strong></span></h2>
+                        <h2>Congrats on taking your first steps<span><strong>.</strong></span> Well done you<span><strong>!</strong></span></h2>
                         <hr>
                         <h3>You're wise enough to know you need to start<span><strong>,</strong></span> and we're here to help you on your way<span><strong>.</strong></span></h3>               
                         <hr>
-                    </div>
+                   </div>
                 </div>
             </div>
             <h3 class="center"><span>By way of example, here's what we might recommend to you.</span></h3>                                    
@@ -65,9 +73,10 @@
                     </ul>
                 </div>
             </div>
+            <hr class="things-we-like-hr">
         </div>
-        <hr>
-        <div class="container-fluid center">
+
+        <div class="container center">
             <div class="row">
                 <div class="col-sm-12"><h1>Want to know more<span><strong>?</strong></span></h1></div>
                 <div class="col-sm-12">

@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+ <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/2f377630da.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
@@ -13,35 +16,40 @@
     <body>
         <header> 
             <div class="jumbotron">
-                <h1>Help <span><strong>To</strong></span> Grow</h1>
-                <nav class="container-fluid navbar center">
-                    <div class="row">
-                        <div class="col">
-                            <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home </a>
+                <h1 class="center">Help <span><strong>To</strong></span> Grow</h1>
+                    <nav class="navbar navbar-expand-sm">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"><i class="fas fa-bars" aria-hidden="true"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="over-forty.html"><i class="far fa-arrow-alt-circle-up" aria-hidden="true"></i> Over 40</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="under-forty.html"><i class="far fa-arrow-alt-circle-down" aria-hidden="true"></i> under 40</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="sign-me-up.html"><i class="fas fa-user-plus" aria-hidden="true"></i> Sign Me Up</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="things-we-like.html"><i class="fas fa-check-double" aria-hidden="true"></i> Things We Like <span class="sr-only">(current)</span></a>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="col">
-                            <a href="over-forty.html"><i class="far fa-arrow-alt-circle-up" aria-hidden="true"></i> Forty + </a>
-                        </div>
-                        <div class="col">
-                            <a href="under-forty.html"><i class="far fa-arrow-alt-circle-down" aria-hidden="true"></i> Forty - </a>
-                        </div>
-                        <div class="col">
-                            <a href="sign-me-up.html"><i class="fas fa-user-plus" aria-hidden="true"></i> Sign Me Up! </a>
-                        </div>
-                        <div class="col">
-                            <a href="things-we-like.html" class="active"><i class="fas fa-check-double" aria-hidden="true"></i> Things We Like </a>
-                        </div>  
-                    </div>  
-                </nav>
-            </div>
+                    </nav>
+                </div>
         </header>
         <div class="center things-we-like-heading">
             <h3>Here are some <span><strong>Things</strong></span> we like<span><strong>.</strong></span></h3> 
             <p>(Bear in mind<span><strong>,</strong></span> the following is just to sate your appetite for more information right now<span><strong>.</strong></span>
-            The real journey begins once you're<span><strong> signed up!</strong></span>)</p>
+            The real journey begins once you're<a href="sign-me-up.html" style="text-decoration:none;"><span><strong> signed up!</strong></span></a>)</p>
         </div>
-        <hr class="things-we-like-hr">
-        <div class="center"><h4>Asset<span><strong>-</strong></span>types we like<span><strong>.</strong></span></h4>
+        <hr>
+        <div class="center"><h4 class="mq-background">Asset<span><strong>-</strong></span>types we like<span><strong>.</strong></span></h4>
         </div>
         <div class="container-fluid">
             <div class="row">
@@ -52,7 +60,7 @@
                             <h5 class="card-title"><span><strong>E</strong></span>xchange <span><strong>T</strong></span>raded <span><strong>F</strong></span>unds</h5>
                             <p class="card-text">An exchange-traded fund <span><strong>(</strong></span>ETF<span><strong>)</strong></span> is a type of investment fund and exchange<span><strong>-</strong></span>traded product<span><strong>,</strong></span> 
                             i<span><strong>.</strong></span>e<span><strong>.</strong></span> they are traded on stock exchanges<span><strong>.</strong></span></p>
-                            <a href="https://en.wikipedia.org/wiki/Exchange-traded_fund" target="_blank" class="btn btn-primary card-button">Tell me more<span><strong>!</strong></span></a>
+                            <a href="https://en.wikipedia.org/wiki/Exchange-traded_fund" target="_blank" class="btn btn-primary card-button">Tell me more !</a>
                         </div>
                     </div>
                 </div>
@@ -63,7 +71,7 @@
                             <h5 class="card-title"><span><strong>B</strong></span>onds</h5>
                             <p class="card-text">In finance<span><strong>,</strong></span> a bond is an instrument of indebtedness of the bond issuer to the holders<span><strong>.</strong></span> 
                                 The most common types include municipal<span><strong>&</strong></span>corporate bonds<span><strong>.</strong></span></p>
-                            <a href="https://en.wikipedia.org/wiki/Bond_(finance)" target="_blank" class="btn btn-primary card-button">Tell me more<span><strong>!</strong></span></a>
+                            <a href="https://en.wikipedia.org/wiki/Bond_(finance)" target="_blank" class="btn btn-primary card-button">Tell me more !</a>
                         </div>
                     </div>
                 </div>
@@ -74,7 +82,7 @@
                             <h5 class="card-title"><span><strong>D</strong></span>ividend <span><strong>A</strong></span>ristocrats</h5>
                             <p class="card-text">A dividend aristocrat is commonly referred to as a company that is a member of the S<span><strong>&</strong></span>P 500 index and has 
                                 continuously increased their dividend for at least 25 years<span><strong>.</strong></span></p>
-                            <a href="https://en.wikipedia.org/wiki/Dividend_aristocrat" target="_blank" class="btn btn-primary card-button"> Tell me more<span><strong>!</strong></span></a>
+                            <a href="https://en.wikipedia.org/wiki/Dividend_aristocrat" target="_blank" class="btn btn-primary card-button">Tell me more !</a>
                         </div>
                     </div>
                </div>
@@ -84,14 +92,14 @@
                         <div class="card-body">
                             <h5 class="card-title"><span><strong>C</strong></span>rypto <span><strong>C</strong></span>urrencies</h5>
                             <p class="card-text">A cryptocurrency is a <span><strong>digital asset</strong></span> designed to work as a medium of exchange wherein individual coin ownership records are stored in a ledger<span><strong>.</strong></span></p>
-                            <a href="https://en.wikipedia.org/wiki/Cryptocurrency" target="_blank" class="btn btn-primary card-button"> Tell me more<span><strong>!</strong></span></a>
+                            <a href="https://en.wikipedia.org/wiki/Cryptocurrency" target="_blank" class="btn btn-primary card-button">Tell me more !</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <hr class="things-we-like-hr">
-        <div class="center"><h4>Exchanges<span><strong>&</strong></span>Providers we like<span><strong>.</strong></span></h4>
+        <hr>
+        <div class="center"><h4 class="mq-background">Exchanges<span><strong>&</strong></span>Providers we like<span><strong>.</strong></span></h4>
         </div>
         <div class="container-fluid">
             <div class="row">
@@ -100,9 +108,9 @@
                         <img src="assets/images/kraken.png" class="card-img-top" alt="Kraken exchange logo and name.">
                         <div class="card-body">
                             <h5 class="card-title"><span><strong>K</strong></span>raken</h5>
-                            <p class="card-text"> Consistently rated the best and most secure cryptocurrency exchange<span><strong>.</strong></span> We put the power in your hands to buy<span><strong>,</strong></span>
+                            <p class="card-text"> Consistently rated the best and most secure cryptocurrency exchange<span><strong>.</strong></span> They put the power in your hands to buy<span><strong>,</strong></span>
                                 sell and trade digital currency<span><strong>.</strong></span></p>
-                            <a href="https://www.kraken.com/" target="_blank" class="btn btn-primary card-button">Tell me more<span><strong>!</strong></span></a>
+                            <a href="https://www.kraken.com/" target="_blank" class="btn btn-primary card-button">Take me there !</a>
                         </div>
                     </div>
                 </div>
@@ -112,7 +120,7 @@
                         <div class="card-body">
                             <h5 class="card-title"><span><strong>M</strong></span>intos</h5>
                             <p class="card-text">Invest in loans and start earning passive income. Connect with thousands of opportunities around the globe on our marketplace<span><strong>.</strong></span></p>
-                            <a href="https://www.mintos.com/en/" target="_blank" class="btn btn-primary card-button">Tell me more<span><strong>!</strong></span></a>
+                            <a href="https://www.mintos.com/en/" target="_blank" class="btn btn-primary card-button">Take me there !</a>
                         </div>
                     </div>
                 </div>
@@ -121,8 +129,8 @@
                         <img src="assets/images/degiro.jpg" class="card-img-top" alt="Degiro logo.">
                         <div class="card-body">
                             <h5 class="card-title"><span><strong>D</strong></span>egiro</h5>
-                            <p class="card-text">Invest with an award winning broker We offer more than just low fees<span><strong>.</strong></span> Discover why over 600<span><strong>,</strong></span>000 investors chose our platform<span><strong>.</strong></span></p>
-                            <a href="https://www.degiro.ie/" target="_blank" class="btn btn-primary card-button"> Tell me more<span><strong>!</strong></span></a>
+                            <p class="card-text">Invest with an award winning broker that offer more than just low fees<span><strong>.</strong></span> Discover why over 600<span><strong>,</strong></span>000 investors chose our platform<span><strong>.</strong></span></p>
+                            <a href="https://www.degiro.ie/" target="_blank" class="btn btn-primary card-button">Take me there !</a>
                         </div>
                     </div>
                </div>
@@ -132,14 +140,14 @@
                         <div class="card-body">
                             <h5 class="card-title"><span><strong>M</strong></span>oney<span><strong>C</strong></span>ube</h5>
                             <p class="card-text">Irish investment and pension advice<span><strong>.</strong></span> Moneycube believes that with the right advice<span><strong>,</strong></span> everyone can take charge of their financial future<span><strong>.</strong></span></p>
-                            <a href="https://moneycube.ie/" target="_blank" class="btn btn-primary card-button"> Tell me more<span><strong>!</strong></span></a>
+                            <a href="https://moneycube.ie/" target="_blank" class="btn btn-primary card-button">Take me there !</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <hr class="things-we-like-hr">
-        <div class="center"><h4>People we like<span><strong>.</strong></span></h4>
+        <hr>
+        <div class="center"><h4 class="mq-background">People we like<span><strong>.</strong></span></h4>
         </div>
         <div class="container-fluid">
             <div class="row">
@@ -150,7 +158,7 @@
                             <h5 class="card-title">J<span><strong>.</strong></span>L<span><strong>.</strong></span> <span><strong>C</strong></span>ollins</h5>
                             <p class="card-text">J<span><strong>.</strong></span>L<span><strong>.</strong></span> <span><strong>C</strong></span>ollins started his blog with the intent 
                                 of eductaing his daughter on financial matters. It has since grown into a a best selling book with global recognition<span><strong>.</strong></span></p>
-                            <a href="https://jlcollinsnh.com/" target="_blank" class="btn btn-primary card-button">Tell me more<span><strong>!</strong></span></a>
+                            <a href="https://jlcollinsnh.com/" target="_blank" class="btn btn-primary card-button">Introduce me !</a>
                         </div>
                     </div>
                 </div>
@@ -161,7 +169,7 @@
                             <h5 class="card-title"><span><strong>J</strong></span>oseph <span><strong>C</strong></span>arlson</h5>
                             <p class="card-text">The Joseph Carlson Show is a series about growing wealth through purchasing stocks
                                 and show the progress of a <span><strong>6</strong></span> figure portfolio be built into a million<span><strong>-</strong></span>dollar portfolio<span><strong>.</strong></span></p>
-                            <a href="https://www.youtube.com/channel/UCbta0n8i6Rljh0obO7HzG9A" target="_blank" class="btn btn-primary card-button">Tell me more<span><strong>!</strong></span></a>
+                            <a href="https://www.youtube.com/channel/UCbta0n8i6Rljh0obO7HzG9A" target="_blank" class="btn btn-primary card-button">Introduce me !</a>
                         </div>
                     </div>
                 </div>
@@ -170,9 +178,9 @@
                         <img src="assets/images/daveramsey.png" class="card-img-top" alt="Dave Ramsey logo.">
                         <div class="card-body">
                             <h5 class="card-title"><span><strong>D</strong></span>ave <span><strong>R</strong></span>amsey</h5>
-                            <p class="card-text">Dave is a self-made millionaire<span><strong>,</strong></span> but it wasn't all smooth sailing<span><strong>.</strong></span> He lost it all early on<span><strong>.</strong></span> but now he's back having learned some hard truths
-                                <span><strong>.</strong></span> He'll blow your mind entirely<span><strong>.</strong></span></p>
-                            <a href="https://www.daveramsey.com/" target="_blank" class="btn btn-primary card-button"> Tell me more<span><strong>!</strong></span></a>
+                            <p class="card-text">Dave is a self-made millionaire<span><strong>,</strong></span> but it wasn't all smooth sailing<span><strong>.</strong></span> He lost it all early on<span><strong>,</strong></span> but now he's back having learned some hard
+                                truths<span><strong>.</strong></span> He'll blow your mind entirely<span><strong>.</strong></span></p>
+                            <a href="https://www.daveramsey.com/" target="_blank" class="btn btn-primary card-button">Introduce me !</a>
                         </div>
                     </div>
                </div>
@@ -183,7 +191,7 @@
                             <h5 class="card-title"><span><strong>P</strong></span>addy <span><strong>D</strong></span>elaney</h5>
                             <p class="card-text">Straight talking financial advice that won<span><strong>'</strong></span>t fail to steer you towards a better financial future<span><strong>.</strong></span> 
                             Paddy Delaney believes in up<span><strong>-</strong></span>front fees and absolutely zero waffle<span><strong>.</strong></span></p>
-                            <a href="https://www.informeddecisions.ie/" target="_blank" class="btn btn-primary card-button"> Tell me more<span><strong>!</strong></span></a>
+                            <a href="https://www.informeddecisions.ie/" target="_blank" class="btn btn-primary card-button">Introduce me !</a>
                         </div>
                     </div>
                 </div>

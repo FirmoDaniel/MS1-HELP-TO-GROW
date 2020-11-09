@@ -1,31 +1,26 @@
-/*---------------------------------------------------------COLORS*/
+/*---------------------------------------------------------COLORS ONLY*/
 
 span{
-    color: #ff4800;
+    color: #ff4800c5;
 
 }
 
-.things-we-like-hr{
+body hr{
     background-color: #ff4800c5;
 
 }
 
-.navbar i{
+
+.footer-icons i, .link-to-things-we-like i{
     color:#db76d1;
     
-}
-
-.navbar a{
-    color: black;
-    
-
 }
 
 footer{
 background-color: #d8edab;
 }
 
-/*---------------------------------------------------------IMAGES*/
+/*---------------------------------------------------------IMAGES ex CARDS*/
 
 .img-back{
     background-image: url("https://image.freepik.com/free-photo/hand-protect-money-stack-with-plant-growing-coins-concept-finance_34152-1481.jpg");
@@ -46,13 +41,13 @@ body{
     font-family: "Playfair Display", sans-serif;
 }
 
-.navbar a, #footer-items a{
+#footer-items a{
     text-decoration: none;
 
 }
 
 .active{
-    border-bottom: 1px solid #db76d1;
+    border-bottom: 5px solid #db76d1;
 
 }
 
@@ -60,6 +55,8 @@ body{
     border-bottom: 1px solid #ff4800c5;
 
 }
+
+
  
 /*---------------------------------------------------------ALIGNMENT*/
 
@@ -72,20 +69,11 @@ body{
 .jumbotron{
     background-color: #d8edab;
     font-family: "playfair Display", sans-serif;
-    text-align: center;
     margin: 0;
     padding: 0;
 
 }
 
-.navbar{
-    font-size: 20px;
-    font-family: "Playfair Display", sans-serif;
-    display: block;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    
-}
 
 .inner-box{
   
@@ -96,12 +84,29 @@ body{
    
 }
 
+.navbar-nav li a{
+    color: black;
+
+}
+
+.navbar-nav li i{
+    color: #db76d1;
+
+}
+
 /*---------------------------------------------------------------------LINKS (ex footer and header)*/
 
 
 
-.link-to-things-we-like a,
-.things-we-like-list a, .form-check a{
+.link-to-things-we-like a, .things-we-like-heading a{
+    color: #ff4800c5;
+    border-bottom: 1px solid #ff4800c5;
+    text-decoration: none;
+
+}
+
+
+.form-check a{
     color: black;
     text-decoration: none;
 
@@ -157,10 +162,6 @@ body{
     margin-top: 50px;
     margin-bottom: 20px;
 
-}
-
-.things-we-like-list{ 
-   padding-top: 20px;
 
 }
 
@@ -179,7 +180,6 @@ body{
 
 }
 .footer-icons i{
-    color: #db76d1;
     font-size: 180%;
     margin: 1%;
    
@@ -193,6 +193,7 @@ footer{
 
 .card-img-top{
     height: 200px;
+    background-color: #ff4800c5;
 
 }
 
@@ -208,5 +209,20 @@ footer{
     #mq-border{ 
         padding-top: 25px;
     }
+    .mq-background{
+        background-color: #d8edab;
+        text-transform: uppercase;
+        border-bottom: 1px solid #ff4800c5;
+    }
+    .nav-item{
+        text-align: left;
+
+    }
+    .active{
+        border:5px solid #db76d1;
+
+    }
+
+
 
 }
