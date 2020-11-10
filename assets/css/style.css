@@ -20,10 +20,13 @@ footer{
 background-color: #d8edab;
 }
 
+
+
 /*---------------------------------------------------------IMAGES ex CARDS*/
 
-.img-back{
+/*.img-back{
     background-image: url("https://image.freepik.com/free-photo/hand-protect-money-stack-with-plant-growing-coins-concept-finance_34152-1481.jpg");
+    background-image: url('../images/bond.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,6 +35,22 @@ background-color: #d8edab;
     padding-top: 10px;
     margin-bottom: 10px;
     color: black;
+    
+}*/
+
+.img-back{
+    background-image: url('../images/small-jar.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    text-align: center;
+    min-height: 400px;
+    width: 100%;
+    margin-bottom: 10px;
+    
     
 }
 
@@ -81,6 +100,7 @@ body{
   letter-spacing: 4px;
   background-color: rgba(218, 218, 238, 0.6);
   margin-top: 50px; 
+  font-weight: 700;
    
 }
 
@@ -119,6 +139,32 @@ body{
 
 }
 
+.button-style button{
+    color: black;
+    border-color: #ff4800c5;
+    border-width: 5px;
+
+
+}
+
+.button-style button:hover{
+    color: white;
+    border-color: white;
+    border-width: 5px;
+    background-color: #ff4800c5;
+
+    
+
+
+}
+
+
+
+
+
+
+
+
 /*------------------------------------------------------------------------BUTTONS*/
 
 .internal{
@@ -127,7 +173,7 @@ body{
     margin-top: 15px;
     margin-bottom: 15px;
     width: 30%;
-    border: none;
+    border-color: white;
 
 }
 
@@ -137,24 +183,35 @@ body{
     margin-top: 15px;
     margin-bottom: 15px;
     width: 30%;
-    border: none;
+    border-color: white;
 
 }
 
-.card-button{
+.card-button, .card-link{
     width: 100%;
     background-color: #db76d1;
     color: black;
 
+
 }
 
-.card-button:hover{
+.card-button:hover, .card-link:hover{
     width: 100%;
     background-color:  #d8edab;
     color:  #ff4800c5;
 
 }
 
+
+.btn-primary{
+    border-color: #db76d1;
+
+}
+
+.btn-primary:hover{
+    border-color: #d8edab;
+
+}
 
 /*------------------------------------------------------------------------------THINGS-WE-LIKE*/
 
@@ -170,6 +227,11 @@ body{
 .sign-me-up-heading{
     margin-top: 40px;
     margin-bottom: 40px;
+
+}
+
+.underline li{
+    border-bottom: 5px solid #ff4800c5;
 
 }
 
@@ -222,7 +284,14 @@ footer{
         border:5px solid #db76d1;
 
     }
+    .mq-button-style{
+        margin: 3%
 
+    }
+    .inner-box{
+        letter-spacing: 0px;
+
+    }
 
 
 }
