@@ -52,7 +52,8 @@ body{
 /*---------------------------------------------------------HEADER*/
 
 
-.img-back{ /*background image*/
+/*background image*/
+.img-back{ 
     background-image: url('../images/small-jar.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -63,6 +64,7 @@ body{
     text-align: center;
     min-height: 400px;
     width: 100%;
+    height: 100%;
     margin-bottom: 10px;
     
 }
@@ -165,7 +167,7 @@ border-bottom: 1px solid #ff4800c5;
 
     }
     .active{
-        border:5px solid #db76d1;
+        border:5px solid #ff4800c5;
 
     }
     .mq-button-style{
