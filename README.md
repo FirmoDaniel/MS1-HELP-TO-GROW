@@ -44,11 +44,11 @@ Depending on user age and end-goals, our community offers a personalized diversi
 
 ### Wireframes
 Wireframe pdf’s are included in the project. 
-[index](wireframe/wireframe-index-first-draft.pdf)
-[over-forty](wireframe/wireframe-over-forty-first-draft.pdf)
-[under-forty](wireframe/wireframe-under-forty-first-draft.pdf)
-[sign-me-up](wireframe/wireframe-sign-me-up-first-draft.pdf)
-[things-we-like](wireframe/wireframe-things-we-tried-first-draft.pdf)
+* [index](wireframe/wireframe-index-first-draft.pdf)
+* [over-forty](wireframe/wireframe-over-forty-first-draft.pdf)
+* [under-forty](wireframe/wireframe-under-forty-first-draft.pdf)
+* [sign-me-up](wireframe/wireframe-sign-me-up-first-draft.pdf)
+* [things-we-like](wireframe/wireframe-things-we-tried-first-draft.pdf)
 
 ## Features
 ### Existing Features
