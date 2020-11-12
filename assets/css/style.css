@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); /*google fonts import*/
+
 /*---------------------------------------------------------GLOBAL STYLES*/
 
 span{
@@ -9,7 +11,8 @@ body hr{
 }
 
 body{
-    font-family: "Playfair Display", sans-serif;
+    /*font-family: "Playfair Display", sans-serif;*/
+    font-family: 'Playfair Display', serif;
 }
 
 .active{
@@ -38,7 +41,7 @@ body{
 /*----------------------------------------------------Cards Pages:Index & Things we like */
 
 .card-img-top{
-    height: 200px;
+    height: 220px;
     background-color: #ff4800c5;
 
 }
@@ -176,6 +179,10 @@ border-bottom: 1px solid #ff4800c5;
     }
     .inner-box{
         letter-spacing: 0px;
+
+    }
+    .footer li span{
+        font-size: 0;
 
     }
 
