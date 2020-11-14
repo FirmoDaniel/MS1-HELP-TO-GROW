@@ -1,7 +1,7 @@
 # Project name: Help to Grow 
 The project aim is to enable new investors to clear what are often the two most daunting hurdles.
-* Up-front capital 
-* Readily available, reliable and custom, information.
+1. Up-front capital 
+2. Readily available, reliable and custom, information.
 
 What separates ‘Help To Grow’ from the other websites is our immediate dealing with the aforementioned hurdles.
 * Our model employs a subscription base as opposed to a lengthy commission based contract. 
@@ -26,42 +26,34 @@ New investors come with a myriad of varying questions, so we aim to keep the ini
 
 ### Initial visit : User Story 1
 * Upon my initial visit:
-    * I want to see the natural navigation links.
-        * _**Site response:**_ : Standard header and footer placement greet users.
-    * I want to find a clear site goal to ensure this is the site for me. 
-        *   _**Site response:**_ : Our goal is prominetly displayed on the landing page. ![User Story 2 ScreenShot](screenshots/ux-clear-goal.png)
-    * I do not want to be overloaded with financial data or immediate calls to action.
-        * _**Site response:**_  The site uses cards with images to exhibit the offer without bombarding the user.
-
-
-
+> I want to see the natural navigation links.
+* _**Site response:**_ : Users are greeted by standard header and footer navigation links.
+> I want to find a clear site goal to ensure this is the site for me. 
+* _**Site response:**_ : Our goal is prominetly displayed on the landing page. ![User Story 1](screenshots/ux-clear-goal.png)
+> I do not want to be overloaded with financial data or immediate calls to action.
+* _**Site response:**_  The site uses cards with images to exhibit the offer without bombarding the user.![User Story 1](screenshots/ux-cards.png)
 
 ### Initial visit : User Story 2
+* Upon my initial visit:
 > I only have €100 to invest each month and I want to buy Bit-Coin.
-
-* Upon my inital visit:
-    * I am looking for help buying a specific asset. Can this site help?
-        * _**Site response 1**_ : Our landing page contains two links. Both highlight a path to Cryptocurrency ![User Story 2 ScreenShot](screenshots/ux-crypto.png) 
-        * _**Site response 2**_ : We also offer addition information on our 'Things we like' page. ![User Story 2 ScreenShot](screenshots/ux1-screenshot.png)
-
-
+* _**Site response 1**_ : Our landing page contains two links. Both port to Cryptocurrency options. ![User Story 2](screenshots/ux-crypto.png) 
+* _**Site response 2**_ : We also offer addition information on our 'Things we like' page. ![User Story 2](screenshots/ux1-screenshot.png)
 
 ### Initial visit : User Story 3
+* Upon my inital visit:
 > I have a pension, isn’t that enough?
-
- * Upon my inital visit:
-    * I am wondering if I need more than a standrad pension.
-        * _**Site response**_ : Our landing page contains two links.![Crypto](screenshots/ux-crypto.png) Both highlight pensions but only as part of an overall portfolio. An example of which can be seen below.
+* _**Site response**_ : Our landing page contains two links. Both port to pension options as **part** of an overall portfolio.
+![Crypto](screenshots/ux-crypto.png)
 ![Pensions](screenshots/ux2-screenshot.png)
 
 ### Returning visit :
 * Upon my return visit:
-    * I want to sign up.
-        * _**Site response**_ : The 'Sign Me Up' page is quickly accessible via the header navigation bar. A reminder of membership benefits is also prominent.![Reminder](screenshots/ux-reminder.png)
+> I want to sign up.
+* _**Site response**_ : The 'Sign Me Up' page is quickly accessible via the header navigation bar. A reminder of membership benefits is also prominent.![Reminder](screenshots/ux-reminder.png)
         
 
 ### Wireframes
-First draft wireframe pdf’s are included in the project. The main variation from the first drafts was the addition of cards to the 'index' and 'things we like' pages.
+First draft wireframe pdf’s are included in this project. The main variation from first drafts was the addition of cards to the 'index' and 'things we like' pages.
 * [index](wireframe/wireframe-index-first-draft.pdf)
 * [over-forty](wireframe/wireframe-over-forty-first-draft.pdf)
 * [under-forty](wireframe/wireframe-under-forty-first-draft.pdf)
@@ -85,8 +77,8 @@ Overall the site is responsive and scales with user screen size. The site follow
 ## Technologies used
 * HTML-For basic structure.
 * CSS-For styling and required Media Query outside of Bootstrap.
-* [Git-Hub](https://github.com) -For deployment.
-* [Git Pod](https://github.com) -IDE.
+* [GitHub](https://github.com) -For deployment.
+* [GitPod](https://www.gitpod.io/) -IDE.
 * [Bootstrap (including JQuery)](https://getbootstrap.com) -Utilized for responsiveness via columns, forms and buttons.
 * [Font Awesome](https://fontawesome.com) -Used for all icons.
 * [Google Fonts](https://fonts.google.com) -Used for primary font employed throughout. [PlayFair Display](https://fonts.google.com/specimen/Playfair+Display?query=playfair).
@@ -154,10 +146,23 @@ Component 1 | Component 2 | Component 3 | Component 4 |
 ------------- | --------- | ----------- | ----------- |
 Email address | Optional Addition Information | checkbox with link to disclaimer | Button to submit |
 Requires a '@' within the email address | optional | Checkbox is required | Two requirements needed before subbmission |
+
+**Upon accepted submission** wherein the following criteria are met.
+* Email has '@'
+* Checkbox is ticked
+The form clears it's contents.
+
+**Upon failed submission** wherein one of the two requirements are not met.
+1. Where the email is blank or doe not contain '@' the user is prompted.
+![Email-Test](screenshots/test-email.png)
+2. Where the email is correct but the checkbox remains un-checked the user is prompted.
+![Email-Test](screenshots/test-checkbox.png)
+
+
 ### Responsiveness
 #### Screen sizes
-I used Google Chrome's Responsive Viewer found [here](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb)
-
+I used Google Chrome's Responsive Viewer found [here](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb).
+The following are exerts from three tests.
 ##### Test @ 300 x 567 
 ![300*576](screenshots/300x576.png)
 
@@ -170,7 +175,7 @@ I used Google Chrome's Responsive Viewer found [here](https://chrome.google.com/
 ### Performance
 #### Lighthouse tests - Mobile
 
-##### Lighthouse Initial mobile test highlighted oversized images as an issue.
+##### Lighthouse Initial mobile test highlighted oversized card images as an issue.
 ![Mobile first run](screenshots/mobile-first-run.png)
 ##### Using Image Magick I reduced the sizes by 50%. Results below.
 ![Mobile final run](screenshots/mobile-final-run.png)
@@ -180,19 +185,18 @@ I used Google Chrome's Responsive Viewer found [here](https://chrome.google.com/
 ##### Lighthouse desktop run came after image reduction in mobile run. 
 ![Desktop Run](screenshots/desktop-run.png)
 
-
 ## Deployment
-The project was developed using [Git Pod](https://github.com) workspace, committed to git and pushed to [Git-Hub](https://github.com) using the built in function within Gitpod.
-To deploy this page from the [Github respository,](https://github.com/FirmoDaniel/MS1-HELP-TO-GROW) the following steps were taken.
-1. Log in to **Github**.
+The project was developed using [GitPod](https://www.gitpod.io/) workspace, committed to git and pushed to [GitHub](https://github.com) using the built in function within Gitpod.
+To deploy this page from the [GitHub respository](https://github.com/FirmoDaniel/MS1-HELP-TO-GROW), the following steps were taken.
+1. Log in to **GitHub**.
 2. From the list of repositories on screen select 'MS1-HELP-TO-GROW'
 ![Deployment-Repository](screenshots/dep-repo.png)
 3. Select **Settings** from the menu.
-4. Scroll down to **Github Pages**
-![Deployment-Github-Pages](screenshots/dep-pages.png)
+4. Scroll down to **GitHub Pages**
+![Deployment-GitHub-Pages](screenshots/dep-pages.png)
 5. Under **Source** click the dropdown menu labelled **none** and select the **Master Branch**.
 6. On selecting **Master Branch** the is automatically refreshed, the website is now deployed.
-7. A link can be found in the **Github pages section**, and also in the about section within **MS1-HELP-TO-GROW**.
+7. A link can be found in the **GitHub pages section**, and also in the about section within **MS1-HELP-TO-GROW**.
 ![Deployment-About](screenshots/dep-about.png)
 8. [Link to site](https://firmodaniel.github.io/MS1-HELP-TO-GROW/)
 
@@ -203,14 +207,14 @@ Header quotes taken from google search results of ‘Financial Quotes’
 Structure taken from [Code Intsitute webinar](http://bit.ly/devlabs_README_anna) 
 ### Media
 * Background image [Sapling in jar of coins](https://images.unsplash.com/photo-1579621970590-9d624316904b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)
-* Card images- Index page.
+* Card images- 'Index' page.
     * [People-Whiteboard](https://images.unsplash.com/photo-1532622785990-d2c36a76f5a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
     * [Pen-Paper-Chart](https://images.unsplash.com/photo-1543286386-2e659306cd6c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)
     * [People-Talking](https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80)
     * [Money](https://images.unsplash.com/photo-1589556763393-59ab0f56b811?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80)
     * [Yes](https://images.unsplash.com/photo-1560174971-443de64be852?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80)
     * [Meeting](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
-* Card images - Things we like page.
+* Card images - 'Things we like' page.
     * [ETF image](https://thumbs.dreamstime.com/z/etf-exchange-traded-funds-concept-table-keywords-letters-icons-colored-flat-vector-illustration-white-etf-exchange-119009035.jpg)
     * [Bond image](https://www.investmentz.com/images/bond.png)
     * [Dividend Aristocrat image](https://www.allincomestream.com/wp-content/uploads/2020/04/dividend_aristocrats.png)
