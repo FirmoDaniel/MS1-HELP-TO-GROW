@@ -87,13 +87,14 @@ Overall the site is responsive and scales with user screen size. The site follow
 * CSS-For styling and required Media Query outside of Bootstrap.
 * [Git-Hub](https://github.com) -For deployment.
 * [Git Pod](https://github.com) -IDE.
-* [Bootstrap](https://getbootstrap.com) -Utilized for responsiveness via columns, forms and buttons.
+* [Bootstrap (including JQuery)](https://getbootstrap.com) -Utilized for responsiveness via columns, forms and buttons.
 * [Font Awesome](https://fontawesome.com) -Used for all icons.
-* [Google Fonts](https://fonts.google.com) -Used for primary font employed throughout.
+* [Google Fonts](https://fonts.google.com) -Used for primary font employed throughout. [PlayFair Display](https://fonts.google.com/specimen/Playfair+Display?query=playfair).
 * [Visual Studio](https://code.visualstudio.com) -For offline work.
-* Google Chrome's lighthouse function.![Lighthouse](screenshots/lighthouse.png)
 * Google Chrome's Responsive Viewer found [here](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb)
 * [ImageMagick](https://imagemagick.org/index.php) -Used for resizing images after initial Lighthouse test on mobile.
+* Google Chrome's lighthouse function.![Lighthouse](screenshots/lighthouse.png)
+
 
 ## Testing
 ### Links
@@ -179,17 +180,27 @@ I used Google Chrome's Responsive Viewer found [here](https://chrome.google.com/
 ##### Lighthouse desktop run came after image reduction in mobile run. 
 ![Desktop Run](screenshots/desktop-run.png)
 
+
 ## Deployment
-Git-hub used for deployment.
-Process as follows
-* Select ‘MS1-HELP-TO-GROW’
-* Got to ‘Settings’
-* Scroll down to ‘GitHub pages’
-* [Link to site](https://firmodaniel.github.io/MS1-HELP-TO-GROW/)
+The project was developed using [Git Pod](https://github.com) workspace, committed to git and pushed to [Git-Hub](https://github.com) using the built in function within Gitpod.
+To deploy this page from the [Github respository,](https://github.com/FirmoDaniel/MS1-HELP-TO-GROW) the following steps were taken.
+1. Log in to **Github**.
+2. From the list of repositories on screen select 'MS1-HELP-TO-GROW'
+![Deployment-Repository](screenshots/dep-repo.png)
+3. Select **Settings** from the menu.
+4. Scroll down to **Github Pages**
+![Deployment-Github-Pages](screenshots/dep-pages.png)
+5. Under **Source** click the dropdown menu labelled **none** and select the **Master Branch**.
+6. On selecting **Master Branch** the is automatically refreshed, the website is now deployed.
+7. A link can be found in the **Github pages section**, and also in the about section within **MS1-HELP-TO-GROW**.
+![Deployment-About](screenshots/dep-about.png)
+8. [Link to site](https://firmodaniel.github.io/MS1-HELP-TO-GROW/)
 
 ## Credits
 ### Content
 Header quotes taken from google search results of ‘Financial Quotes’
+### README
+Structure taken from [Code Intsitute webinar](http://bit.ly/devlabs_README_anna) 
 ### Media
 * Background image [Sapling in jar of coins](https://images.unsplash.com/photo-1579621970590-9d624316904b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)
 * Card images- Index page.
@@ -213,6 +224,6 @@ Header quotes taken from google search results of ‘Financial Quotes’
     * [Dave Ramsey image](https://pbs.twimg.com/profile_images/378800000250594141/8479b63c02b71130a03e218ae805ce85_400x400.png)
     * [Paddy Delaney image](https://ssl-static.libsyn.com/p/assets/a/6/a/3/a6a32c57b3d5361b/New_Podcast_Art_image.jpg)
 ### Acknowledgements 
-I received inspiration for this project from Code Institute -Love Running- tutorial, which is why I opted for background images in the header quotes, and a neat footer.
+I received inspiration for this project from Code Institute -Love Running- tutorial, which is why I opted for background images behind the header quotes, and a neat footer.
 
 
