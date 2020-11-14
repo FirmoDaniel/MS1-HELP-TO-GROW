@@ -1,5 +1,6 @@
 # Project name: Help to Grow 
-The project aim is to enable new investors to clear what are often the two most daunting hurdles.
+## Project aim
+To enable new investors to clear what are often the two most daunting hurdles.
 1. Up-front capital 
 2. Readily available, reliable and custom, information.
 
@@ -14,6 +15,20 @@ Professionals are compensated via the subscription charge. As part of their re-n
 Professionals are advised to advertise private mentoring sessions with the community for a fixed, pre-agreed-upon, fee in order to expand their own client base and ultimately the return value of remaining apart of Help to Grow site.
 
 A live version can be found [here](https://firmodaniel.github.io/MS1-HELP-TO-GROW/).
+
+## Project Requirements 
+1. Static front end Project- Using HTML and CSS to create a website of three pages. 
+    * Achieved- The site has five pages.
+2. Information Architecture: Incorporate a main navigation menu and structured layout.
+    * Achieved- the site's header, footer and colour scheme are consistent throughout.
+3. Documentation- Write a README.md that explains what the project does and the value it provides.
+    * Achieved- The below outlines the site's merits and usability.
+4. Version Control - Use Git & GitHub for version control.
+    * Achieved- A list of commits can be found [here](https://github.com/FirmoDaniel/MS1-HELP-TO-GROW).
+5. Deployment- Deploy final version to GitHub pages.
+    * Achieved- See deployed site [here](https://github.com/FirmoDaniel/MS1-HELP-TO-GROW).
+6. Attribution- Maintain clear separation between code written by you and code from external sources.
+    * Achieved- See example from 'index' html.![Attribution](screenshots/requirements-att.png)
 
 ## UX
 
