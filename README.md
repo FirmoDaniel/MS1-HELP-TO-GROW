@@ -41,8 +41,8 @@ New investors come with a myriad of varying questions, so we aim to keep the ini
 
 * Upon my inital visit:
     * I am looking for help buying a specific asset. Can this site help?
-        * _**Site response**_ : Our landing page contains two links.![User Story 2 ScreenShot](screenshots/ux-crypto.png) Both highlight a path to Cryptocurrency
-        * _**Site response**_ : We also offer addition information on our 'Things we like' page. ![User Story 2 ScreenShot](screenshots/ux1-screenshot.png)
+        * _**Site response 1**_ : Our landing page contains two links. Both highlight a path to Cryptocurrency ![User Story 2 ScreenShot](screenshots/ux-crypto.png) 
+        * _**Site response 2**_ : We also offer addition information on our 'Things we like' page. ![User Story 2 ScreenShot](screenshots/ux1-screenshot.png)
 
 
 
@@ -51,8 +51,14 @@ New investors come with a myriad of varying questions, so we aim to keep the ini
 
  * Upon my inital visit:
     * I am wondering if I need more than a standrad pension.
-        * _**Site response**_ : Our landing page contains two links.![User Story 2 ScreenShot](screenshots/ux-crypto.png) Both highlight pensions but only as part of an overall portfolio. An example of which can be seen below.
-![User Story 3 ScreenShot](screenshots/ux2-screenshot.png)
+        * _**Site response**_ : Our landing page contains two links.![Crypto](screenshots/ux-crypto.png) Both highlight pensions but only as part of an overall portfolio. An example of which can be seen below.
+![Pensions](screenshots/ux2-screenshot.png)
+
+### Returning visit :
+* Upon my return visit:
+    * I want to sign up.
+        * _**Site response**_ : The 'Sign Me Up' page is quickly accessible via the header navigation bar. A reminder of membership benefits is also prominent.![Reminder](screenshots/ux-reminder.png)
+        
 
 ### Wireframes
 Wireframe pdf’s are included in the project. 
@@ -60,7 +66,7 @@ Wireframe pdf’s are included in the project.
 * [over-forty](wireframe/wireframe-over-forty-first-draft.pdf)
 * [under-forty](wireframe/wireframe-under-forty-first-draft.pdf)
 * [sign-me-up](wireframe/wireframe-sign-me-up-first-draft.pdf)
-* [things-we-like](wireframe/wireframe-things-we-tried-first-draft.pdf)
+* [things-we-like](wireframe/wireframe-things-we-like-first-draft.pdf)
 
 ## Features
 ### Existing Features
