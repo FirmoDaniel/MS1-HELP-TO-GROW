@@ -32,12 +32,18 @@ A live version can be found [here](https://firmodaniel.github.io/MS1-HELP-TO-GRO
 
 ## UX
 
+#### Strategy & Scope planes
 The website is targeted at new users, and initially splits them into two categories for easy, example representation. 
 * Over Forty
 * Under Forty
 
 We then offer simple examples of available options to both categories, with a push toward the greater rewards that accompany membership.
+
 New investors come with a myriad of varying questions, so we aim to keep the initial experience concise while also demonstrating our knowledge and how we can help.
+
+While most sites operate a costly commission based fee, Help to Grow offers a minimum fee subscription offer with easy entry and penalty-free exit.
+
+In terms of scope the current site was kept conscise so as not to overwhelm beginner investors.
 
 ### Initial visit : User Story 1
 * Upon my initial visit:
@@ -64,11 +70,17 @@ New investors come with a myriad of varying questions, so we aim to keep the ini
 ### Returning visit :
 * Upon my return visit:
 > I want to sign up.
-* _**Site response**_ : The 'Sign Me Up' page is quickly accessible via the header navigation bar. A reminder of membership benefits is also prominent.![Reminder](screenshots/ux-reminder.png)
+* _**Site response**_ : The 'Sign Me Up' page is quickly accessible via the header navigation bar. 
+A reminder of membership benefits is also prominent.![Reminder](screenshots/ux-reminder.png)
         
 
 ### Wireframes
-First draft wireframe pdf’s are included in this project. The main variation from first drafts was the addition of cards to the 'index' and 'things we like' pages.
+#### The Structure & Skeleton planes
+In keeping with the uncomplicated approach agreed upon in our Scope plane, the initial wireframes were created
+with consistency in mind so each advancing page's style followa the previous.
+
+_Note:_ First draft wireframe pdf’s are included in this project. The main variation from which was the addition 
+of cards to both the 'index' and 'things we like' pages in keeping with our Structure & Skeleton planes ideals.
 * [index](wireframe/wireframe-index-first-draft.pdf)
 * [over-forty](wireframe/wireframe-over-forty-first-draft.pdf)
 * [under-forty](wireframe/wireframe-under-forty-first-draft.pdf)
@@ -76,8 +88,15 @@ First draft wireframe pdf’s are included in this project. The main variation f
 * [things-we-like](wireframe/wireframe-things-we-like-first-draft.pdf)
 
 ## Features
+### The Surface Plane
+Overall the site is responsive and scales with user screen size. 
+
+The site follows a succinct colour theme of **Orange** (#ff4800c5) paired with **Black** throughout,
+these colours are inchanged periodically to avoid visual fatigue. 
+
+The lead colurs are accompanied by headers and footers splashed **Pale Green** (#c6e0c1) to naturally border the pages, 
+and a single font is used globally to maintain conhesiveness.
 ### Existing Features
-Overall the site is responsive and scales with user screen size. The site follows Orange (#ff4800c5) with black colour theme throughout.  
 * Index : Features a background image repeated throughout. Cards with images from Bootstrap. Quotes which follow a fixed style but vary in text. Info on all [here](#credits). There are links at page end to promt users deeper into the site. 
 * Forty + : Contains a compact list of suggestions based on users selected age group. Page end contains a link to sign up.
 * Forty - : Mirroring the 'Forty +' here we display an altered list of suggestions based on users selected age group. Page end contains a link to sign up.
