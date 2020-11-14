@@ -79,44 +79,105 @@ Overall the site is responsive and scales with user screen size. The site follow
 * Footer : Links provided to fictional social medias.
 
 ### Features left to implement 
-Sign Me Up: We would like to allow users sign up in full on this page by implementing some back-end structure and incorporating a secure direct payment method.
+* Sign Me Up: We would like to allow users sign up in full on this page by implementing some back-end structure and incorporating a secure direct payment method.
 
-Over-all : To ensure adequate revenues we want to monetize affiliate links and advertising.
 
 ## Technologies used
-* [Git-Hub](https://github.com) -For deployment
-* [Git Pod](https://github.com) -IDE
-* [Bootstrap](https://getbootstrap.com) -Utilized for correct scaling on mobile devices and buttons.
+* HTML-For basic structure.
+* CSS-For styling and required Media Query outside of Bootstrap.
+* [Git-Hub](https://github.com) -For deployment.
+* [Git Pod](https://github.com) -IDE.
+* [Bootstrap](https://getbootstrap.com) -Utilized for responsiveness via columns, forms and buttons.
 * [Font Awesome](https://fontawesome.com) -Used for all icons.
 * [Google Fonts](https://fonts.google.com) -Used for primary font employed throughout.
 * [Visual Studio](https://code.visualstudio.com) -For offline work.
-* Lighthouse.
-* responsive viewer.
+* Google Chrome's lighthouse function.![Lighthouse](screenshots/lighthouse.png)
+* Google Chrome's Responsive Viewer found [here](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb)
+* [ImageMagick](https://imagemagick.org/index.php) -Used for resizing images after initial Lighthouse test on mobile.
 
 ## Testing
-### Links and Form
-There are currently no automatic tests employed. Such test are marked for later development.
-All internal and external links manually tested on each of the five pages. 
-Sign up form tested as follows
-* Go to Sign Me Up
-	* Entered invalid email
-		* Warning displayed
-* Enter valid email, but left disclaimer check-box empty 
-	* Warning displayed
-* Entered valid email and checked the disclaimer box
-	* Sign up successful
+### Links
+#### Manual Testing
+* Index links
+    * At 'Index' page end two links are presented in buttom-form.  
+        * I'm over 40
+        * I'm under 40
+    * _Both links when selected lead to the assigned pages._
 
-### Screen sizing
-Using GoogleChrome developer tool
-* The website scales evenly all the way down to screen-size 425x635.
-* At 375x635 and 320x635 the header and footer icons start to bunch although not so much as to overtly disrupt the UX. This too is marked for later development.
+* Over 40 links
+    * At 'Over Forty' page end one link is presented in button-form.
+        * I'm Ready to Start
+    * _The link when selected navigates the user to the 'Sign Me Up' page._
 
-Using FireFox developer tool
-* The website scales evenly all the way down to screen-size 425x635. 
-* At 375x635 and 320x635 the header and footer icons start to bunch although not so much as to overtly disrupt the user’s experience. This too is marked for later development.
-* The Zoom function on links not working in FireFox—also marked for later development.
+* Under 40 links
+    * At 'Under Forty' page end one link is presented in button-form.
+        * I'm Ready to Start
+    * _The link when selected navigates the user to the 'Sign Me Up' page._
 
+* Sign Me Up links
+    * At 'Sign Me Up' page bottom two links are presented in text-form.
+        * 'disclaimer' housed within the form
+        * 'Things We Like' 
+    * _'disclaimer' link when selected navigates the user to sample pdf on a new tab._
+    * _'Things We Like' link when selected navigates the user to the 'Things We Like' page._
 
+* Things we links
+    * At 'Things We Like' page top one link is presented in text-form.
+        * 'signed up!'
+    * _The link when selected navigates to the 'Sign Me Up Page' page._
+    * At 'Things We Like' page body there are twelve cards each with external links divided  evenly among three sections. (1)Asset-types we like. (2)Exchanges&Providers we like. (3)People we like.
+        * Asset-types we like 'Show me more!'
+            * ETF's
+            * Bonds
+            * Dividend Aristocrats 
+            * Crypto Currencies
+        * _Each link when selected diverts the user to an external wikipedia address in a new tab._
+         * Exchanges&Providers we like 'Take me there!'
+            * Kraken
+            * Mintos
+            * Degiro
+            * MoneyCube
+        * _Each link when selected diverts the user to the intended provider's homepage an external in a new tab._       
+         * People we like 'Tell me more!'
+            * J.L. Collins
+            * The Joseph Carlson Show
+            * Dave Ramsey
+            * Paddy Delaney's Informed Decisions
+        * _Each link when selected diverts the user to the intended person's homepage an external in a new tab._ 
+### Forms
+#### Manual Testing
+* Sign Me Up form
+    * At 'Sign Me Up' page bottom one form is presented with four components.
+
+Component 1 | Component 2 | Component 3 | Component 4 |
+------------- | --------- | ----------- | ----------- |
+Email address | Optional Addition Information | checkbox with link to disclaimer | Button to submit |
+Requires a '@' within the email address | optional | Checkbox is required | Two requirements needed before subbmission |
+### Responsiveness
+#### Screen sizes
+I used Google Chrome's Responsive Viewer found [here](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb)
+
+##### Test @ 300 x 567 
+![300*576](screenshots/300x576.png)
+
+##### Test @ 320 x 635
+![320*635](screenshots/320x635.png)
+
+##### Test @ 1024 x 800
+![1024*800](screenshots/1024x800.png)
+
+### Performance
+#### Lighthouse tests - Mobile
+
+##### Lighthouse Initial mobile test highlighted oversized images as an issue.
+![Mobile first run](screenshots/mobile-first-run.png)
+##### Using Image Magick I reduced the sizes by 50%. Results below.
+![Mobile final run](screenshots/mobile-final-run.png)
+
+#### Lighthouse tests - Desktop
+
+##### Lighthouse desktop run came after image reduction in mobile run. 
+![Desktop Run](screenshots/desktop-run.png)
 
 ## Deployment
 Git-hub used for deployment.
