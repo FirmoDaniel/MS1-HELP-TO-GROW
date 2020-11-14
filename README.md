@@ -1,19 +1,22 @@
 # Project name: Help to Grow 
 The project aim is to enable new investors to clear what are often the two most daunting hurdles.
-* Upfront capital 
+* Up-front capital 
 * Readily available, reliable and custom, information.
 
 What separates ‘Help To Grow’ from the other websites is our immediate dealing with the aforementioned hurdles.
 * Our model employs a subscription base as opposed to a lengthy commission based contract. 
-* We offer users immediate access to qualified advisors once signed up to our community
+* We offer users immediate access to qualified advisors once signed up to our community.
 
 We hope to scale the model out beyond the republic of Ireland to the wider European catchment market which will require a broadening of our in-house professionals.
 
-Professionals are compensated via the subscription charge. As part of their re-numeration they are expected to create helpful content in their relevant field, engage with the community at weekly q&a’s, and ensure their own qualifications valid throughout their involvement.
+Professionals are compensated via the subscription charge. As part of their re-numeration they are expected to create helpful content in their relevant field, engage with the community at periodic q&a’s, and ensure their own qualifications remain valid throughout their involvement.
 
-Professionals are advised to advertise private mentoring sessions with the community for a fixed, pre-agreed-upon, fee in order to expand their own client base and ultimately the return value of remaining apart of Danco: Community investors site.
+Professionals are advised to advertise private mentoring sessions with the community for a fixed, pre-agreed-upon, fee in order to expand their own client base and ultimately the return value of remaining apart of Help to Grow site.
+
+A live version can be found [here](https://firmodaniel.github.io/MS1-HELP-TO-GROW/).
 
 ## UX
+
 The website is targeted at new users, and initially splits them into two categories for easy, example representation. 
 * Over Forty
 * Under Forty
@@ -21,26 +24,35 @@ The website is targeted at new users, and initially splits them into two categor
 We then offer simple examples of available options to both categories, with a push toward the greater rewards that accompany membership.
 New investors come with a myriad of varying questions, so we aim to keep the initial experience concise while also demonstrating our knowledge and how we can help.
 
-### User Story 1
+### Initial visit : User Story 1
+* Upon my initial visit:
+    * I want to see the natural navigation links.
+        * _**Site response:**_ : Standard header and footer placement greet users.
+    * I want to find a clear site goal to ensure this is the site for me. 
+        *   _**Site response:**_ : Our goal is prominetly displayed on the landing page. ![User Story 2 ScreenShot](screenshots/ux-clear-goal.png)
+    * I do not want to be overloaded with financial data or immediate calls to action.
+        * _**Site response:**_  The site uses cards with images to exhibit the offer without bombarding the user.
+
+
+
+
+### Initial visit : User Story 2
 > I only have €100 to invest each month and I want to buy Bit-Coin.
 
-We can offer verified exchanges on which to trade, guidance on relevant asset-type trends and pitfalls, a personalized portfolio growth strategy, and advise on specific tax obligations.  
+* Upon my inital visit:
+    * I am looking for help buying a specific asset. Can this site help?
+        * _**Site response**_ : Our landing page contains two links.![User Story 2 ScreenShot](screenshots/ux-crypto.png) Both highlight a path to Cryptocurrency
+        * _**Site response**_ : We also offer addition information on our 'Things we like' page. ![User Story 2 ScreenShot](screenshots/ux1-screenshot.png)
 
-There are very few, if any, Irish based advisors who would entertain this user’s needs.
 
-![User Story 1 ScreenShot](screenshots/ux1-screenshot.png)
 
-### User Story 2
+### Initial visit : User Story 3
 > I have a pension, isn’t that enough?
 
-While pensions are highly tax efficient they are not without their pitfalls
-* The government can, and has, raided private pensions in recessionary times. 
-* Most providers demand a 1-3% annual commission even if your investment value falls. Not to mention other costs like allocation/ management fees. 
-* By their nature they have a long time horizon with sharp penalties for early access in case of emergency. 
-
-Depending on user age and end-goals, our community offers a personalized diversification strategy to ensure our investors avoid the big mistakes people often make with a pension-only approach.
-
-![User Story 1 ScreenShot](screenshots/ux2-screenshot.png)
+ * Upon my inital visit:
+    * I am wondering if I need more than a standrad pension.
+        * _**Site response**_ : Our landing page contains two links.![User Story 2 ScreenShot](screenshots/ux-crypto.png) Both highlight pensions but only as part of an overall portfolio. An example of which can be seen below.
+![User Story 3 ScreenShot](screenshots/ux2-screenshot.png)
 
 ### Wireframes
 Wireframe pdf’s are included in the project. 
