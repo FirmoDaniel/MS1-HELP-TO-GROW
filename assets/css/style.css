@@ -4,6 +4,7 @@
 
 span{
     color: #ff4800c5;
+    font-weight: 700;
 }
 
 body hr{
@@ -21,6 +22,21 @@ body{
 
 .center{
     text-align: center;
+}
+
+.button-style a{
+    color: black;
+    border-color: #ff4800c5;
+    border-width: 5px;  
+
+}
+
+.button-style a:hover{
+    color: white;
+    border-color: white;
+    border-width: 5px;
+    background-color: #ff4800c5;  
+
 }
 
 .button-style button{
@@ -66,7 +82,7 @@ body{
     -moz-background-size: cover;
     text-align: center;
     min-height: 400px;
-    width: 100%;
+    max-width: 1024px;
     height: 100%;
     margin-bottom: 10px;
     

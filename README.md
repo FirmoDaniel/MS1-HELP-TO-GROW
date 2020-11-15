@@ -77,10 +77,10 @@ A reminder of membership benefits is also prominent.![Reminder](screenshots/ux-r
 ### Wireframes
 #### The Structure & Skeleton planes
 In keeping with the uncomplicated approach agreed upon in our Scope plane, the initial wireframes were created
-with consistency in mind so each advancing page's style followa the previous.
+with consistency in mind so each advancing page's style follows the previous.
 
 _Note:_ First draft wireframe pdf’s are included in this project. The main variation from which was the addition 
-of cards to both the 'index' and 'things we like' pages in keeping with our Structure & Skeleton planes ideals.
+of mirroring cards to both the 'index' and 'things we like' pages in keeping with our Structure & Skeleton planes ideals.
 * [index](wireframe/wireframe-index-first-draft.pdf)
 * [over-forty](wireframe/wireframe-over-forty-first-draft.pdf)
 * [under-forty](wireframe/wireframe-under-forty-first-draft.pdf)
@@ -95,7 +95,7 @@ The site follows a succinct colour theme of **Orange** (#ff4800c5) paired with *
 these colours are inchanged periodically to avoid visual fatigue. 
 
 The lead colurs are accompanied by headers and footers splashed **Pale Green** (#c6e0c1) to naturally border the pages, 
-and a single font is used globally to maintain conhesiveness.
+and a single font is used globally to maintain cohesiveness.
 ### Existing Features
 * Index : Features a background image repeated throughout. Cards with images from Bootstrap. Quotes which follow a fixed style but vary in text. Info on all [here](#credits). There are links at page end to promt users deeper into the site. 
 * Forty + : Contains a compact list of suggestions based on users selected age group. Page end contains a link to sign up.
@@ -111,6 +111,7 @@ and a single font is used globally to maintain conhesiveness.
 ## Technologies used
 * HTML-For basic structure.
 * CSS-For styling and required Media Query outside of Bootstrap.
+* [W3C validator](https://validator.w3.org/)-Used in testing HTML and CSS.
 * [GitHub](https://github.com) -For deployment.
 * [GitPod](https://www.gitpod.io/) -IDE.
 * [Bootstrap (including JQuery)](https://getbootstrap.com) -Utilized for responsiveness via columns, forms and buttons.
@@ -184,6 +185,7 @@ Requires a '@' within the email address | optional | Checkbox is required | Two 
 **Upon accepted submission** wherein the following criteria are met.
 * Email has '@'
 * Checkbox is ticked
+
 The form clears it's contents.
 
 **Upon failed submission** wherein one of the two requirements are not met.
@@ -218,6 +220,13 @@ The following are exerts from three tests.
 
 ##### Lighthouse desktop run came after image reduction in mobile run. 
 ![Desktop Run](screenshots/desktop-run.png)
+
+### Validation
+Using [W3C validator](https://validator.w3.org/) both HTML and CSS were checked by direct input.
+1. HTML: Index
+![W3C Index](screenshots/w3c-index.png)
+2. HTML: Over-Forty
+![W3C Index](screenshots/w3c-over-forty.png)
 
 ## Deployment
 The project was developed using [GitPod](https://www.gitpod.io/) workspace, committed to git and pushed to [GitHub](https://github.com) using the built in function within Gitpod.
