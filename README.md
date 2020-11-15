@@ -211,22 +211,40 @@ The following are exerts from three tests.
 ### Performance
 #### Lighthouse tests - Mobile
 
-##### Lighthouse Initial mobile test highlighted oversized card images as an issue.
+##### Lighthouse Initial mobile test highlighted issues such as:
+* Oversized cards.
+* Duplicate Bootstrap links.
+* Missing labels in footer icons
 ![Mobile first run](screenshots/mobile-first-run.png)
-##### Using Image Magick I reduced the sizes by 50%. Results below.
+
+##### Using Image Magick I reduced the sizes by 50%. Also corrected the duplicate links and footer icons.
 ![Mobile final run](screenshots/mobile-final-run.png)
 
 #### Lighthouse tests - Desktop
 
-##### Lighthouse desktop run came after image reduction in mobile run. 
+##### Lighthouse desktop.
 ![Desktop Run](screenshots/desktop-run.png)
 
+_Note_: Lighthouse proposed other fixes but most were beyond my capability. 
+
 ### Validation
-Using [W3C validator](https://validator.w3.org/) both HTML and CSS were checked by direct input.
-1. HTML: Index
-![W3C Index](screenshots/w3c-index.png)
-2. HTML: Over-Forty
-![W3C Index](screenshots/w3c-over-forty.png)
+Using [W3C validator](https://validator.w3.org/) both HTML and CSS were checked by direct input. Issues arising were promptly corrected. 
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+       
+     
 
 ## Deployment
 The project was developed using [GitPod](https://www.gitpod.io/) workspace, committed to git and pushed to [GitHub](https://github.com) using the built in function within Gitpod.
