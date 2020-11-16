@@ -73,7 +73,6 @@ In terms of scope the current site was kept conscise so as not to overwhelm begi
 * _**Site response**_ : The 'Sign Me Up' page is quickly accessible via the header navigation bar. 
 A reminder of membership benefits is also prominent.![Reminder](screenshots/ux-reminder.png)
         
-
 ### Wireframes
 #### The Structure & Skeleton planes
 In keeping with the uncomplicated approach agreed upon in our Scope plane, the initial wireframes were created
@@ -107,7 +106,6 @@ and a single font is used globally to maintain cohesiveness.
 ### Features left to implement 
 * Sign Me Up: We would like to allow users sign up in full on this page by implementing some back-end structure and incorporating a secure direct payment method.
 
-
 ## Technologies used
 * HTML-For basic structure.
 * CSS-For styling and required Media Query outside of Bootstrap.
@@ -121,7 +119,6 @@ and a single font is used globally to maintain cohesiveness.
 * Google Chrome's Responsive Viewer found [here](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb)
 * [ImageMagick](https://imagemagick.org/index.php) -Used for resizing images after initial Lighthouse test on mobile.
 * Google Chrome's lighthouse function.![Lighthouse](screenshots/lighthouse.png)
-
 
 ## Testing
 ### Links
@@ -194,7 +191,6 @@ The form clears it's contents.
 2. Where the email is correct but the checkbox remains un-checked the user is prompted.
 ![Email-Test](screenshots/test-checkbox.png)
 
-
 ### Responsiveness
 #### Screen sizes
 I used Google Chrome's Responsive Viewer found [here](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb).
@@ -243,8 +239,6 @@ Using [W3C validator](https://validator.w3.org/) both HTML and CSS were checked 
         alt="Valid CSS!" />
     </a>
 </p>
-       
-     
 
 ## Deployment
 The project was developed using [GitPod](https://www.gitpod.io/) workspace, committed to git and pushed to [GitHub](https://github.com) using the built in function within Gitpod.
@@ -260,6 +254,15 @@ To deploy this page from the [GitHub respository](https://github.com/FirmoDaniel
 7. A link can be found in the **GitHub pages section**, and also in the about section within **MS1-HELP-TO-GROW**.
 ![Deployment-About](screenshots/dep-about.png)
 8. [Link to site](https://firmodaniel.github.io/MS1-HELP-TO-GROW/)
+
+### Cloning
+1. Go to GitHub Repository: [Help To Grow](https://firmodaniel.github.io/MS1-HELP-TO-GROW/)
+2. Select 'Code' dropdown button (next to green 'gitpod' button).
+3. These are your three options ![Clone-Options](screenshots/clone-options.png)
+
+    * Copy the URL to your local IDE such as [Visual Studio](https://code.visualstudio.com).
+    * Intsall [GitHub desktop](https://desktop.github.com/).
+    * Download the Zip file and use with local IDE such as [Visual Studio](https://code.visualstudio.com).
 
 ## Credits
 ### Content
