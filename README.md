@@ -260,9 +260,6 @@ Using [W3C validator](https://validator.w3.org/) both HTML and CSS were checked 
     </a>
 </p>
 
- 
-
-
 ## Deployment
 The project was developed using [GitPod](https://www.gitpod.io/) workspace, committed to git and pushed to [GitHub](https://github.com) using the built in function within Gitpod.
 To deploy this page from the [GitHub respository](https://github.com/FirmoDaniel/MS1-HELP-TO-GROW), the following steps were taken.
