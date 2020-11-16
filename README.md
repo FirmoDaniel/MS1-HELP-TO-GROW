@@ -216,10 +216,30 @@ The following are exerts from three tests.
 ##### Using Image Magick I reduced the sizes by 50%. Also corrected the duplicate links and footer icons.
 ![Mobile final run](screenshots/mobile-final-run.png)
 
+##### Lighthouse Mobile overall results 
+
+| Page  | Overall  | Performance  | Accessibility  | Best Practise  | Seo |
+|---|---|---|---|---|---|
+| Index  | 90  | 86  | 95  | 86  | 92  |
+|  Over 40 | 90  | 81  | 95  | 93  | 91  |
+| Under 40  | 93  | 92  | 95  | 93  | 91  |
+| Sign me Up  | 91  | 84  | 97  | 93  | 91  |
+| Things we Like  | 89  | 90  | 95  | 79  | 92  |
+
 #### Lighthouse tests - Desktop
 
 ##### Lighthouse desktop.
 ![Desktop Run](screenshots/desktop-run.png)
+
+##### Lighthouse Desktop overall results 
+
+| Page  | Overall  | Performance  | Accessibility  | Best Practise  | Seo |
+|---|---|---|---|---|---|
+| Index  | 90  | 92  | 93  | 86  | 90  |
+|  Over 40 | 93  | 98  | 92  | 93  | 89  |
+| Under 40  | 93  | 96  | 92  | 93  | 89  |
+| Sign me Up  | 94  | 96  | 97  | 93  | 89  |
+| Things we Like  | 91  | 96  | 93  | 86  | 90  |
 
 _Note_: Lighthouse proposed other fixes but most were beyond my capability. 
 
@@ -239,6 +259,9 @@ Using [W3C validator](https://validator.w3.org/) both HTML and CSS were checked 
         alt="Valid CSS!" />
     </a>
 </p>
+
+ 
+
 
 ## Deployment
 The project was developed using [GitPod](https://www.gitpod.io/) workspace, committed to git and pushed to [GitHub](https://github.com) using the built in function within Gitpod.
