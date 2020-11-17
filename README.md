@@ -4,9 +4,18 @@
 2. [UX](#UX)
 3. [Wireframes](#Wireframes)
 4. [Features](#features)
-
-
-
+5. [Technologies used](#technologies-used)
+6. [Testing](#testing)
+    
+    * [links](#links)
+    * [Forms](#forms)
+    * [Responsivness](#responsiveness) 
+    * [Performance](#performance)
+    * [Validation](#validation)
+7. [Deployment](#deployment)
+8. [Cloning](#cloning)
+9. [Credits](#credits)
+10. [Acknowledgements](#acknowledgements)
 
 # Project name: Help to Grow 
 ## Project aim
