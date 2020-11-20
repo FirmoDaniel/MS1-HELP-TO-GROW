@@ -84,7 +84,7 @@ In terms of scope the current site was kept conscise so as not to overwhelm begi
 > I have a pension, isn’t that enough?
 * _**Site response**_ : Our landing page contains two links. Both port to pension options as **part** of an overall portfolio.
 ![Crypto](screenshots/ux-crypto.png)
-![Pensions](screenshots/ux2-screenshot.png)
+![Pensions](screenshots/ux3-screenshot.png)
 
 ### Returning visit :
 * Upon my return visit:
