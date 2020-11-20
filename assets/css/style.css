@@ -126,13 +126,19 @@ body{
 
 }
 
+
 .footer-icons i{
     font-size: 180%;
     margin: 1%;
     padding-top:10px;
     color: #ff4800c5;
-   
 }
+
+.footer-icons li a{
+    text-decoration: none;
+
+}
+
 
 .footer{
     background-color: #c6e0c1;
